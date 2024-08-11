@@ -13,7 +13,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         int op;
-        System.out.println("Ingrese una opción");
+        System.out.println("Hola. Ingrese una opción");
         op = sc.nextInt();
 
         int tam = ejercicios.tamanoArray();
