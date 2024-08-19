@@ -88,8 +88,7 @@ public class Menu_Uno {
                 // los elementos de los dos arrays originales.
                 ejercicios.rellenarArray(array);
                 ejercicios.rellenarArray(array2);
-                int[] array3 = ejercicios.intercalarArrays(array, array2);
-                ejercicios.imprimirArray(array3);
+                System.out.println(Arrays.toString(ejercicios.intercalarArrays(array,array2)));
                 break;
 
         }
