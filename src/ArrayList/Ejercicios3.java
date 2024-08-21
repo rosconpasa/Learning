@@ -26,8 +26,8 @@ public class Ejercicios3 {
     public <T> void eliminarPorPosición(ArrayList<T> elementos) {
         System.out.println("Ingrese la posicion a eliminar");
         pos = sc.nextInt();
-        elementos.remove(pos);
         System.out.println("Elemento " + elementos.get(pos) + " eliminado");
+        elementos.remove(pos);
     }
 
     public <T> void buscarElemento(ArrayList<T> elementos) {
